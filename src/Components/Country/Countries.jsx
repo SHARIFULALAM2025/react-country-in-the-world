@@ -13,7 +13,7 @@ const Countries = ({ countryMessage }) => {
 
   return (
     <div className="">
-      <h1 className="">countries :{countriesData.length}</h1>
+      <h1 className=""> all countries :{countriesData.length}</h1>
       <h2>countryCount Visited:{count.length}</h2>
       <ol>
         {count.map((x) => (
