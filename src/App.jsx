@@ -12,7 +12,7 @@ function App() {
     return (
       <>
         <Suspense fallback={<p>waiting show the data ........</p>}>
-          <Countries countryMessage={countryMessage}></Countries>
+          <Countries  countryMessage={countryMessage}></Countries>
         </Suspense>
       </>
     )
