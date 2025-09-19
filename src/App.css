@@ -1,0 +1,14 @@
+.box{
+    border: 2px solid red;
+    align-items: center;
+    margin: 5px;
+    
+    padding: 5px;
+
+
+}
+.country{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
